@@ -14,6 +14,11 @@ function App() {
 
   return (
     <CoinsContext.Provider value={{ coinsData, searchStr, setSearchStr }}>
+      <div className="heading-main">
+      <h3>Cryptodom</h3>
+      <img src="src/asset/hero.gif"></img>
+      </div>
+      
       <NavBar />
       <BrowserRouter>
         <Routes>

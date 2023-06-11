@@ -14,7 +14,19 @@
     color: #f4f4f4;
     text-decoration: none;
   }
-  
+  .heading-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #26272b;
+    box-shadow: 0px 0px 12px #18191b;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+    font-weight: 700;
+    font-size: 40px;
+
+}
 .container {
     max-width: 1140px;
     margin: auto;

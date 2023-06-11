@@ -11,7 +11,7 @@ function Coins() {
     <div className="container">
       <div className="heading">
         <p>#</p>
-        <h3 className="coin-name">Coin Name</h3>
+        <h3>Coin Name</h3>
         <h3>Price</h3>
         <h3>24h</h3>
       </div>
