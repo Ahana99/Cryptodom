@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { BsFillTriangleFill } from "react-icons/bs";
 import useFetchData from "../custom_hooks/useFetchData";
 
