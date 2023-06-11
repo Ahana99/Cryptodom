@@ -49,7 +49,7 @@ function CoinDetails() {
             </thead>
             <tbody>
               <tr className="row">
-                <td>last 24 hours</td>
+                <td>Last 24 hours</td>
                 <td>
                   {data.market_data?.price_change_percentage_24h ? (
                     data.market_data.price_change_percentage_24h < 0 ? (
@@ -75,7 +75,7 @@ function CoinDetails() {
                 </td>
               </tr>
               <tr>
-                <td>last 7 days</td>
+                <td>Last 7 days</td>
                 <td>
                   {data.market_data?.price_change_percentage_7d ? (
                     data.market_data.price_change_percentage_7d < 0 ? (
@@ -101,7 +101,7 @@ function CoinDetails() {
                 </td>
               </tr>
               <tr>
-                <td>last 1 month</td>
+                <td>Last 1 month</td>
                 <td>
                   {data.market_data?.price_change_percentage_30d ? (
                     data.market_data.price_change_percentage_30d < 0 ? (
