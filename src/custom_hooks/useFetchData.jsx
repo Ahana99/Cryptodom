@@ -19,5 +19,5 @@ export default function useFetchData(url) {
     res();
   }, []);
 
-  return {data, status};
+  return { data, status };
 }

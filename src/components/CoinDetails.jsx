@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import React from "react";
 import { BsFillTriangleFill } from "react-icons/bs";
 import useFetchData from "../custom_hooks/useFetchData";
-import loader from "../asset/Loader.gif"
+import loader from "../asset/Loader.gif";
 
 function CoinDetails() {
   const params = useParams();

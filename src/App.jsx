@@ -22,7 +22,9 @@ function App() {
       </div>
 
       <NavBar />
-      {status == "loading" ? <img  className="loader" src={loader} /> : (
+      {status == "loading" ? (
+        <img className="loader" src={loader} />
+      ) : (
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Coins />} />
