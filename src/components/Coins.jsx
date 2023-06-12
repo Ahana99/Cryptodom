@@ -15,7 +15,7 @@ function Coins() {
         <h3>Price</h3>
         <h3>24h</h3>
       </div>
-      {context.coinsData.filter((coin) => coin.name.toLowerCase().includes(context.searchStr.toLowerCase())).map((coin) => {
+      {context.data.filter((coin) => coin.name.toLowerCase().includes(context.searchStr.toLowerCase())).map((coin) => {
         return (
           <Link to={`/coin/${coin.id}`} element={<Coin />} key={coin.id}>
             <Coin coin={coin} />
